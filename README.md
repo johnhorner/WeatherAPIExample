@@ -27,5 +27,5 @@ Notes:
             ErrorLog  /var/log/apache2/weather-error.log
             CustomLog /var/log/apache2/weather-access_log common
         </VirtualHost>
-   
-   7. In the case of no observation having an `apparent_t` over 20 an empty array will be returned, not an error message.
+
+7. In the case of no observation having an `apparent_t` over 20 an empty array will be returned, not an error message.
